@@ -3,10 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML 101</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    header > h1 {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+      font-size: 4em;
+      margin: 0;
+      text-align: center;
+    }
+    #lineBreak {
+      display: block;
+    }
+    .super {
+      vertical-align: super;
+      font-size: .75em;
+    }
+  </style>
 </head>
 <body>
-  <h1>HTML 101</h1>
-  <p>This is a practice page for HTML fundamentals.</p>
-  <h2><p>This is fantastic!</p></h2>
+  <header>
+    <h1>HTML 101</h1>
+    <h2>This is a fun page to test out html concepts.</h2>
+    <span>This is span 1.</span>
+    <span id="lineBreak">This is span 2. It is display block!</span>
+    <span>This is span 3</span>
+    <span>This should be next to span 3</span>
+  </header>
+  <h4>Now, some fun with math:</h4>
+  <h5>Did you know this?... 2<span class="super">3</span> = 8</h5>
 </body>
 </html>
